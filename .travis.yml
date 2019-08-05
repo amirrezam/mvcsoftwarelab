@@ -5,6 +5,8 @@ addons:
       - ant
       - ant-optional
       - sshpass
+jdk:
+  - oraclejdk8
 script:
   - ant test
   - password=amirrezamozayani@gmail.com
