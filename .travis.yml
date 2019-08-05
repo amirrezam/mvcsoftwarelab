@@ -3,6 +3,6 @@ addons:
   apt:
     packages:
       - ant
-      - ant-junit
+      - ant-optional
 script:
   - ant test
