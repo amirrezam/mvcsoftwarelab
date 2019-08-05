@@ -4,6 +4,7 @@ addons:
     packages:
       - ant
       - ant-optional
+      - sshpass
 script:
   - ant test
 
