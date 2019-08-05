@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60fbe5e4-08f2-455b-a054-651e6f353073" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +27,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +74,7 @@
       <find>student</find>
       <find>Student</find>
       <find>Test</find>
+      <find>Rege</find>
     </findStrings>
     <replaceStrings>
       <replace>course</replace>
@@ -94,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/selab/mvc/views/StaticHtmlView.java" />
         <option value="$PROJECT_DIR$/src/selab/mvc/models/entities/Student.java" />
         <option value="$PROJECT_DIR$/src/selab/mvc/models/entities/Weekday.java" />
-        <option value="$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java" />
         <option value="$PROJECT_DIR$/src/selab/mvc/controllers/courses/AddCourseController.java" />
         <option value="$PROJECT_DIR$/src/selab/mvc/models/DataContext.java" />
         <option value="$PROJECT_DIR$/src/selab/mvc/controllers/students/RemoveStudentController.java" />
@@ -107,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/test/TestTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java" />
       </list>
     </option>
   </component>
@@ -224,7 +238,7 @@
       <updated>1555097317966</updated>
       <workItem from="1555097323800" duration="26893000" />
       <workItem from="1555239787541" duration="339000" />
-      <workItem from="1564998942447" duration="2197000" />
+      <workItem from="1564998942447" duration="2498000" />
     </task>
     <task id="LOCAL-00001" summary="initialize ant">
       <created>1565001371515</created>
@@ -233,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565001371518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change travis">
+      <created>1565001640004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565001640004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change travis">
+      <created>1565001769506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565001769506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -245,7 +273,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29429000" />
+    <option name="totallyTimeSpent" value="29730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -287,7 +315,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize ant" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize ant" />
+    <MESSAGE value="change travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="change travis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/selab/mvc/views/View.java">
@@ -387,20 +416,6 @@
           <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,8 +647,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/selab/mvc/models/entities/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
